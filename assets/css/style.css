@@ -1,0 +1,112 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 414px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .web {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 414px) {
+    .mobile {
+        display: inline;
+    }
+}
+
+.color-red {
+    color: #FE0202;
+}
+
+.color-green {
+    color: #4C9B6E;
+}
+
+.color-grey {
+    color: rgb(185, 185, 185);
+}
+
+.font-size-10 {
+    font-size: 10px;
+}
+
+.font-size-11 {
+    font-size: 11px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-15 {
+    font-size: 15px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-17 {
+    font-size: 17px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-19 {
+    font-size: 19px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.size-icons {
+    width: 50px;
+}
+
+.card-menu {
+    border: 1px solid rgba(185, 184, 184, 0.301);
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 35px;
+}
+
+.margin-grid {
+    margin-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    margin-left: 350px;
+}
+
+.text-card {
+    font-weight: 600;
+    padding-top: 15px;
+}
