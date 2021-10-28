@@ -100,7 +100,7 @@ p {
 }
 
 .margin-grid {
-    margin-top: 50px;
+    margin-top: 15px;
     padding-right: 15px;
     padding-bottom: 30px;
     margin-left: 350px;
@@ -109,4 +109,166 @@ p {
 .text-card {
     font-weight: 600;
     padding-top: 15px;
+}
+
+.container-data-menu {
+    width: 340px;
+    height: 100% !important;
+    background-color: #dbdbdb;
+}
+
+.container-store {
+    background-color: white;
+    border-radius: 10px;
+    width: 270px;
+    margin: auto;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.size-logo-data-menu {
+    width: 240px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.button-select-menu {
+    border: none;
+    background-color: white;
+}
+
+.container-user-menu {
+    background-color: white;
+    border-radius: 10px;
+    width: 270px;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.padding-vertical-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding-horizontal-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.padding-vertical-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.button-close-panel {
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #FE0202;
+    color: white;
+    width: 270px;
+}
+
+.navbar-menu {
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 4px 6px -6px rgb(141, 141, 141);
+    width: 100%;
+    z-index: 1000;
+}
+
+.size-logo-navbar {
+    width: 220px;
+    margin-left: 10px;
+}
+
+.size-icon-user {
+    width: 45px;
+    margin-right: 15px;
+}
+
+.size-logostore-user {
+    width: 270px;
+    margin-bottom: 30px;
+}
+
+.container-store-mobile {
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.button-select-menu-mobile {
+    border: none;
+    background-color: white;
+    font-size: 18px;
+}
+
+.container-user-menu-mobile {
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.padding-vertical-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.card-icons {
+    border-radius: 5px;
+    width: 170px;
+    padding-left: 30px;
+    border: 1px solid rgba(185, 184, 184, 0.301);
+}
+
+.container-grid-mobile {
+    padding-top: 85px;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 65px;
+}
+
+.size-icons-mobile {
+    width: 50px;
+}
+
+.text-card-mobile {
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.footer-button {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #c00303;
+    text-align: center;
+    box-shadow: 0px 1px 1px rgba(102, 102, 102, 0.75);
+}
+
+.button-close-panel-mobile {
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    margin-top: 10px;
 }
