@@ -237,7 +237,7 @@ p {
     padding-top: 85px;
     padding-left: 20px;
     padding-right: 5px;
-    padding-bottom: 65px;
+    padding-bottom: 75px;
 }
 
 .size-icons-mobile {
@@ -255,8 +255,8 @@ p {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 50px;
-    background-color: #c00303;
+    height: 60px;
+    background-color: #e4dcdc;
     text-align: center;
     box-shadow: 0px 1px 1px rgba(102, 102, 102, 0.75);
 }
@@ -264,11 +264,11 @@ p {
 .button-close-panel-mobile {
     border: none;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 5px;
-    height: 30px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    height: 35px;
+    background-color: #FE0202;
+    color: rgb(255, 255, 255);
     width: 200px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
